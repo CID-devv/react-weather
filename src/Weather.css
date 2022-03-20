@@ -3,7 +3,7 @@
 	border: 1px solid #dadde1;
   color: #878787;
   padding: 16px;
-  border-radius:5px ;
+  border-radius:5px;
 }
 
 .Weather h1 {
@@ -25,3 +25,24 @@
   list-style: none;
 }
 
+.Weather .parent {
+  display: flex;
+  color:#212121;
+  font-weight: 400;
+}
+
+.Weather img {
+  margin-right: 10px;
+}
+
+.Weather .temperature {
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  /* position: relative;
+  top: 5px; */
+  /* line-height: 1; */
+}

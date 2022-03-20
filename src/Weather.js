@@ -29,12 +29,14 @@ export default function Weather() {
 				<li>Cloudy</li>
 			</ul>
 			<div className='row'>
-				<div className='col-6'>
+				<div className='col-6 parent'>
 					<img
 						src='https://ssl.gstatic.com/onebox/weather/64/cloudy.png'
 						alt='cloudy'
 					/>
-					6°C
+
+					<span className='temperature'>6</span>
+					<span className='unit'>°C</span>
 				</div>
 				<div className='col-6'>
 					<ul>
