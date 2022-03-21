@@ -31,18 +31,13 @@
   font-weight: 400;
 }
 
-.Weather img {
-  margin-right: 10px;
-}
-
 .Weather .temperature {
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 20px 0 0 2px;
 }
 
 .Weather .unit {
   font-size: 16px;
-  /* position: relative;
-  top: 5px; */
-  /* line-height: 1; */
+  margin-top: 20px;
 }
